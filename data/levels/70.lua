@@ -1,0 +1,21 @@
+return {
+	Image("70 tomb.png", -300, 300),
+	player = PlayerCharacter("70 old.lua", 0, 600),
+	Trigger("70 speech.lua", -10),
+	Image("ground.png", 0, 600),
+	Image("ground.png", 700, 600),
+	Image("ground.png", 1400, 600),
+	Image("ground.png", 2100, 600),
+	Image("ground.png", 2800, 600),
+	Image("70 tombs.png", -415, 200),
+	Image("70 tombs.png", 200, 200),
+	Image("70 tombs.png", 800, 200),
+	Image("70 tombs.png", 1400, 200),
+	Image("70 tombs.png", 2000, 200),
+	Image("70 bench.png", 1600, 420),
+	bunch = Image("70 bunch.png", 1900, 400),
+	Trigger("70 bunch.lua", 1800),
+	Image("70 gate.png", 2500, 150),
+	Image("70 bus.png", 3300, 0),
+	Trigger("70 bus.lua", 3400)
+}
